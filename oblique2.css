@@ -1,0 +1,44 @@
+/* FOR IMAGE ONE*/
+
+#img1{position:relative;
+top: 17em;
+right:-50px;}
+
+@-webkit-keyframes move
+{
+    from {
+        left: 0;
+    }
+    to {
+        right: 550%;
+    }
+}
+@keyframes move
+{
+    from {
+        left: 0;
+    }
+    to {
+        right: 550%;
+    }
+}
+
+
+
+.image1{
+    text-decoration: none;
+    padding-right: 0px;
+    right: -30%;
+    position: absolute;
+    -webkit-animation: move 23s;
+    animation: move 23s;
+}
+
+.image1 img {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out; 
+    -o-transition: all 2s ease-in-out; 
+    -ms-transition: all 2s ease-in-out; 
+    border-radius:60px;
+    transition-duration: 30s;
+    }

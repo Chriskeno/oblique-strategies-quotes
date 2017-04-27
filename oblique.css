@@ -1,0 +1,163 @@
+   /*   
+Project: oblique stratigies
+Author: christopher Kennedy
+
+
+/* Reset Browser Defaults*/
+
+* {
+  padding:0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+/*///////////////////BODY//////////*/
+
+body {width: 100%;
+max-width: 90%;
+margin: auto;
+padding: 2em;
+font-family:  'Open Sans', sans-serif;}
+
+.background {background:  url(background.jpg)top center no-repeat;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+/* FOR IMAGE ONE*/
+
+#img1{position:relative;
+top: 160px;
+left:700px;}
+
+@-webkit-keyframes move
+{
+    from {
+        right: 0;
+    }
+    to {
+        left: 550%;
+    }
+}
+@keyframes move
+{
+    from {
+        right: 0;
+    }
+    to {
+        left: 550%;
+    }
+}
+
+
+
+.image1{
+    text-decoration: none;
+    padding-right: 0px;
+    right: 310%;
+    position: absolute;
+    -webkit-animation: move 23s;
+    animation: move 23s;
+}
+
+.image1 img {
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out; 
+    -o-transition: all 2s ease-in-out; 
+    -ms-transition: all 2s ease-in-out; 
+    border-radius:60px;
+    transition-duration: 300s;
+    }
+
+
+/* CONTAINER*/
+/*.container {
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0em;
+	display: block;
+	display: -webkit-flex; 
+	justify-content: center;
+	align-items: center;
+	}
+
+.container p {position: relative;
+left: -40em;
+font-size: 1.5em;
+}
+
+p {
+  animation: move-right 12s;
+}
+
+@keyframes move-right {
+  from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: 0%;
+    width: 250%;
+  }
+} */
+
+/*p{position:relative;
+top: 17em;
+left:700px;}
+
+@-webkit-keyframes move
+{
+    from {
+        right: 0;
+    }
+    to {
+        left: 550%;
+    }
+}
+@keyframes move
+{
+    from {
+        right: 0;
+    }
+    to {
+        left: 550%;
+    }
+}
+*/
+
+
+/*p{
+    text-decoration: none;
+    padding-right: 0px;
+    right: 1700%;
+    position: absolute;
+    -webkit-animation: move 23s;
+    animation: move 23s;
+}
+
+p{
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out; 
+    -o-transition: all 2s ease-in-out; 
+    -ms-transition: all 2s ease-in-out; 
+    border-radius:60px;
+    transition-duration: 300s;
+    } */
+
+h1{font-family:  'Open Sans', sans-serif;
+    padding: 0em;
+position: relative;
+left: 34em;
+top: 32em;
+text-decoration: none;
+margin: 0em;
+padding: 0em;
+}
+
+a {text-decoration: none;
+color: black;
+}
