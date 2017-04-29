@@ -151,11 +151,13 @@ p{
 h1{font-family:  'Open Sans', sans-serif;
     padding: 0em;
 position: relative;
-left: 34em;
-top: 32em;
+left: 16em;
+top: 16em;
 text-decoration: none;
 margin: 0em;
 padding: 0em;
+    color: azure;
+    font-size: 2.1em;
 }
 
 a {text-decoration: none;
