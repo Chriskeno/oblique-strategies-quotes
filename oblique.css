@@ -31,12 +31,11 @@ font-family:  'Open Sans', sans-serif;}
 top: 160px;
 left:700px;}
 
-@-webkit-keyframes move
-{
-    from {
+@-webkit-keyframes move {
+    0% {
         right: 0;
     }
-    to {
+    100% {
         left: 550%;
     }
 }
@@ -50,15 +49,26 @@ left:700px;}
     }
 }
 
+@keyframes loop {
+  0%  {
+    transform:translateX(80%);
+  }
+  100%{
+    transform:translateX(-200%);
+  }
+}
 
 
 .image1{
     text-decoration: none;
     padding-right: 0px;
-    right: 310%;
+/*    right: 310%;*/
     position: absolute;
+/*
     -webkit-animation: move 23s;
     animation: move 23s;
+*/
+    animation: loop 16s infinite;
 }
 
 .image1 img {
